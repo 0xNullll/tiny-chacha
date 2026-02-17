@@ -30,7 +30,6 @@ Enable or disable specific variants via compiler flags or preprocessor macros:
 
 - XChaCha automatically enables ChaCha internally.  
 - `TSHASH_PREFIX` allows avoiding name collisions in larger projects.  
-- Note: ChaCha supports both 128-bit and 256-bit keys, whereas XChaCha only supports 256-bit keys.
 
 ---
 
@@ -141,7 +140,6 @@ int main() {
 
 - Fully self-contained — no external dependencies.
 - Designed for simplicity, speed, and easy integration.
-- ChaCha supports 128-bit and 256-bit keys; XChaCha supports only 256-bit keys.
 - All functions return `bool` to indicate success or failure.
 - Supports little-endian and big-endian CPUs automatically.
 - `TSHASH_PREFIX` can be defined to avoid function name collisions.
